@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail Test Suite]">
+  <test thread-count="5" name="Sens Mail Test(failed)">
+    <classes>
+      <class name="GmailTest.SendMailTestCase">
+        <methods>
+          <include name="SendMail"/>
+        </methods>
+      </class> <!-- GmailTest.SendMailTestCase -->
+    </classes>
+  </test> <!-- Sens Mail Test(failed) -->
+</suite> <!-- Failed suite [Gmail Test Suite] -->
